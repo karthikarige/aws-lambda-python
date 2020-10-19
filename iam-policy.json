@@ -1,11 +1,12 @@
-{
 "Version": "2012-10-17",
 "Statement": [
 {
-"Sid": "Stmt1593766128323",
-"Action": "*",
+"Action": "sts:AssumeRole",
+"Principal": {
+"Service": "lambda.amazonaws.com"
+},
 "Effect": "Allow",
-"Resource": "*"
+"Sid": ""
 }
 ]
 }
