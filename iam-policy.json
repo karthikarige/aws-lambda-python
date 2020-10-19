@@ -1,11 +1,11 @@
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": "*",
-            "Principal": {"Service": "ec2.amazonaws.com"},
-            "Resource": "*"
-        }
-    ]
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "Stmt1593766128323",
+"Action": "*",
+"Effect": "Allow",
+"Resource": "*"
+}
+]
 }
