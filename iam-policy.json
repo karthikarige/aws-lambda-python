@@ -4,6 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "*",
+            "Principal": {"Service": "ec2.amazonaws.com"},
             "Resource": "*"
         }
     ]
